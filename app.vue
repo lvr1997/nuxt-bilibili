@@ -1,5 +1,6 @@
 <template>
-  <NuxtPage />
+  <!-- 使用keepalive缓存 -->
+  <NuxtPage :keepalive="{ max: 10 }"/>
 </template>
 
 <script setup>
