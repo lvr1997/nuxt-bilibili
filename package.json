@@ -16,6 +16,8 @@
   },
   "devDependencies": {
     "@vant/nuxt": "^1.0.4",
+    "postcss-px-to-viewport": "^1.1.1",
+    "sass": "^1.77.4",
     "typescript": "^5.4.5",
     "vue-tsc": "^2.0.16"
   }

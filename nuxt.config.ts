@@ -13,5 +13,13 @@ export default defineNuxtConfig({
   // }
   devtools: { enabled: true },
 
-  modules: ["@vant/nuxt"]
+  modules: ["@vant/nuxt"],
+  // 移动端适配
+  postcss: {
+    plugins: {
+      'postcss-px-to-viewport': {
+        viewportWidth: 375, //设计稿的大小
+      },
+    },
+  },
 })

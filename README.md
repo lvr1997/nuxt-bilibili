@@ -1,75 +1,50 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 仿B站的移动端项目
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+技术栈：Nuxt3 + Vant
 
-## Setup
+## 构建工具
 
 Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
 
 # pnpm
 pnpm install
 
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## 项目开发
 
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
 # pnpm
 pnpm run dev
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
+## 项目总结
 
-## Production
+- [x] Nuxt环境搭建
+- [x] Nuxt是用来做什么的
+- [x] Nuxt的路由系统
+- [x] ts的基本语法
+
+## 打包上线
 
 Build the application for production:
 
 ```bash
-# npm
-npm run build
 
 # pnpm
 pnpm run build
 
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+生产环境预览
 
 ```bash
-# npm
-npm run preview
 
 # pnpm
 pnpm run preview
 
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
